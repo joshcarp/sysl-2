@@ -1,0 +1,8 @@
+
+sdifnscfsdhifs:
+    /address:
+        GET(ok <: foo):
+            return ok <: sequence of App.foo
+    !type foo:
+        this <: string
+        that <: int
